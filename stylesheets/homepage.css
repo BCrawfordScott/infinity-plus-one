@@ -1,0 +1,116 @@
+.main-bg {
+  position: fixed;
+  z-index: -10;
+  border-top: 30px solid MediumTurquoise;
+  min-width: 1000px
+}
+
+.home-main {
+  position: absolute;
+  width: calc(100%)
+}
+
+.header-nav {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: 150px;
+  align-items: center;
+  padding: 0 100px 0 100px;
+}
+
+.header-nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.title-bar h3 {
+  font-size: 32px;
+  color: MediumTurquoise;
+}
+
+.title-bar span {
+  font-size: 18px;
+  color: MediumTurquoise;
+
+}
+
+.header-nav ul li {
+  font-size: 20px;
+  color: gray;
+  transition: color .5s;
+  padding: 10px;
+}
+
+.header-nav ul li:hover {
+  cursor: pointer;
+  color: MediumTurquoise;
+  transition: color .5s;
+}
+
+.sub-header {
+  display: block;
+  text-align: center;
+  background-color: gray;
+  color: white;
+  font-size: 34px;
+  padding: 15px;
+  border-top: 2px solid orange;
+}
+
+.view-break {
+  display: flex;
+  height: calc(70vh);
+  justify-content: space-around;
+  align-items: center;
+  color: gray;
+  font-size: 40px;
+}
+
+.main {
+  padding: 20px;
+  background-color: white;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.main h1 {
+  font-size: 36px;
+  color: gray;
+  padding: 50px;
+  text-align: center;
+}
+
+.main span {
+  display: block;
+  align-self: center;
+  font-size: 24px;
+  color: gray;
+  text-align: center;
+  padding: 0 150px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-top: 2px solid orange;
+  padding: 30px 150px;
+}
+
+.footer span {
+  color: gray;
+  font-size: 20px;
+}
+
+/* .blog {
+  border: none;
+  width: calc(65vw);
+  height: 500px;
+} */
